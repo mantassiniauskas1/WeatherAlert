@@ -1,24 +1,3 @@
-# README
+This is a Ruby on Rails Weather Alert app that I created for a company's interview assignment.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It takes GPS information of a driver, located in USA, as an input, gets the state via Geocoder API, gets severe or higher weather conditions that day via api.weather.gov and sends an email alerting the drivers every morning. 
